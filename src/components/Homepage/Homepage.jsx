@@ -157,29 +157,33 @@ const Homepage = () => {
         <div className="first-div">
           <div className="one-of-two">
             <div className="one-in-two">
+              <Link className="linking" to={"/indoor"}>
               <img
                 className="collage"
                 src={require("./homeImages/new indoor offer.png")}
                 alt=""
               />
+              </Link>
             </div>
             <div className="one-in-two">
+              <Link className="linking" to={"/outdoor"}>
               <img
                 className="collage"
                 src={require("./homeImages/new outdoor.png")}
                 alt=""
               />
+              </Link>
             </div>
           </div>
           <div className="two-of-two">
             <div className="one-in-three">
-              <img className="collage" src={require("./homeImages/NEW VEGGIES.png")} alt="" />
+              <img className="collages" src={require("./homeImages/NEW VEGGIES.png")} alt="" />
             </div>
             <div className="one-in-three">
-              <img className="collage" src={require("./homeImages/NEW POTS.png")} alt="" />
+              <img className="collages" src={require("./homeImages/NEW POTS.png")} alt="" />
             </div>
             <div className="one-in-three">
-              <img className="collage" src={require("./homeImages/NEW TOOLS.png")} alt="" />
+              <img className="collages" src={require("./homeImages/NEW TOOLS.png")} alt="" />
             </div>
           </div>
         </div>
