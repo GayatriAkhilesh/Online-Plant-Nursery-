@@ -1,0 +1,74 @@
+/* .modal{
+    border: 2px solid grey;
+    width: 500px;
+    height: 600px;
+} */
+
+/* stylingModal.css */
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    .modal-content, .modal-content * {
+      visibility: visible;
+    }
+    .modal-content Button{
+        visibility: hidden;
+    }
+  }
+  
+
+
+
+
+
+
+.modal-content{
+    background-color: white;
+    width: 500px;
+    height: 600px;
+}
+.address{
+    /* border: 1px solid black; */
+    width: 99%;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+}
+.address label{
+    font-size: 18px;
+}
+.address input{
+    width: 100%;
+    height: 50px;
+}
+.bill-detail{
+    /* border: 1px solid rgba(128, 128, 128, 0.64); */
+    width: 99%;
+    height: 325px;
+    border-radius: 3px;
+}
+.bill-logo{
+    width: 100px;
+}
+.bill-detail table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.bill-detail  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .bill-detail h2{
+    text-align: right;
+  }
+  .bill-button button{
+    background-color: #21583d;
+  }
+  .bill-button button :hover{
+    background-color: white;
+    color: #21583d;
+  }

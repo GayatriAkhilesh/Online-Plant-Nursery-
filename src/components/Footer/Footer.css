@@ -1,0 +1,150 @@
+.footer{
+    /* border: 3px solid darkgreen; */
+    background-color: #133324;
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.footer img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.02;
+}
+.footer-content{
+    /* border: 1px solid white; */
+    width: 90%;
+    height: 90%;
+   
+}
+.top{
+    /* border: 1px dashed white; */
+    width: 100%;
+    height: 50%;
+    position: relative;
+    bottom: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.knowledge{
+    /* border: 1px dotted yellow; */
+    height: 100%;
+    width: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.knowledge p{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.knowledge span{
+    color: white;
+}
+.useful{
+    /* border: 1px dashed green; */
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.useful p{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.useful span{
+    color: white;
+}
+.about{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.about p{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.about span{
+    color: white;
+}
+.subscribe{
+    /* border: 1px dotted white; */
+    height: 120px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.subscribe p{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.subscribe span{
+    color: white;
+}
+.bottom{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 250px;
+    margin-top: -500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.social-medias{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: white;
+    font-weight: 600;
+}
+.social-medias img{
+    width: 30px;
+    opacity: 2;
+}
+.branches{
+    /* border: 1px dotted red; */
+    width: 90%;
+    height:50px;
+    margin-left: 55px;
+}
+.branches span{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+}
+.copyright{
+    /* border: 1px dashed green; */
+    width: 70%;
+    height: 50px;
+    margin-left: 55px;
+}
+.copyright span{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+}

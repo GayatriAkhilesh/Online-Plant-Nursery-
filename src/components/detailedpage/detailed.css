@@ -1,0 +1,175 @@
+.detailed-main{
+    margin-top: 80px;
+    /* background-color: cyan; */
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.image-container{
+    background-color: yellow;
+    width: 600px;
+    height: 600px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.details{
+    /* background-color: wheat; */
+    width: 600px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.name-price{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 80px;
+}
+.abt-shipping{
+    /* border: 1px dashed red; */
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.add-to-cart{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.quantity{
+    /* border: 1px solid green; */
+    width: 200px;
+    height: 40px;
+}
+.quantity select{
+    width: 180px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #21583d;
+    color: white;
+    border-radius: 3px;
+}
+.addCart-button{
+    background-color: #21583d;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+}
+.offers{
+    border: 1px solid rgb(207, 207, 207) ;
+    width: 100%;
+    height:400px;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+    padding: 10px;
+}
+.grey-txt{
+    color: grey;
+    text-decoration:line-through;
+    font-size: 20px;
+}
+.normal{
+font-size: 20px;
+margin-left: 20px;
+font-weight: 500;
+}
+.offer-heading{
+    /* background-color: cyan; */
+    width: 250px;
+    height: 60px;
+    text-align: center;
+}
+.points{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.idi-icon{
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.points span{
+    font-size: 18px;
+}
+.benefits{
+    /* background-color: cyan; */
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 750px;
+    margin-top: -50px;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.note{
+    width: 90%;
+    height: 40px;
+    /* border: 1px dashed red; */
+    display: flex;
+    align-items: flex-start;
+}
+.note span{
+    font-size: 13px;
+}
+.features{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.features h2{
+    color: rgb(7, 7, 61);
+    margin-bottom: 20px;
+}
+.features img{
+    width: 25px;
+    margin-right: 10px;
+}
+.features span{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.benefits p{
+    margin-left: 20px;
+    text-align: center;
+}
+.end-point{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.end{
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}

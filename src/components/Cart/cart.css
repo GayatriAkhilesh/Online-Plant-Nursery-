@@ -1,0 +1,127 @@
+.cart-bg{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll;
+}
+.cart-item-main{
+    border:1px solid #72877d64;
+    /* box-shadow: 0px 5px 10px #21583d76; */
+    width: 1200px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px;
+}
+.imagee{
+    width:180px;
+    height: 200px;
+    box-shadow: 0px 5px 10px #21583d76;
+}
+.cart-item-main h3{
+    font-size: 20px;
+}
+.cart-item-main h2{
+    font-size: 18px;
+}
+.name-price-cart{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+}
+.remove-button{
+    background-color: #21583d;
+    color: white;
+    width: 180px;
+    height: 40px;
+    
+}
+.approval{
+    /* border: 1px solid green; */
+    width: 150px;
+    height: 150px;
+    color: #21583d;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.total-amt{
+    /* background-color: cyan; */
+    border: 1px solid #21583d;
+    /* background-color: white; */
+    width: 100%;
+    height: 180px;
+    /* padding: 50px; */
+    /* position: fixed; */
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    flex-direction: column;
+}
+.row-one{
+    /* background-color: yellow; */
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.for-total{
+    /* border: 1px solid black; */
+    border-bottom: 1px solid #21583d6c;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.for-quantity{
+    /* border: 1px solid black; */
+    border-bottom: 1px solid #21583d6c;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total-amt span{
+    font-size: 28px;
+    font-weight: 600;
+    color: #21583d;
+    margin-left: 50px;
+}
+.amount{
+    font-size: 30px;
+    font-weight: 600;
+    color: #21583d;
+    margin-right: 50px;
+}
+.check-button{
+    background-color: #21583d;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+.check-button{
+    background-color: #21583d;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+
+.show-quantity{
+    margin-right: 50px;
+}

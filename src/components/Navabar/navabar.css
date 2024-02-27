@@ -1,0 +1,90 @@
+.nav-main{ 
+    width: 100%;
+    height: 80px;
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 5px 16px rgba(128, 128, 128, 0.358);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+.logo{
+    /* border: 1px solid green; */
+    width: 250px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    height: 100%;
+    margin-left: -10px;
+}
+.serach{
+    /* border: 1px solid red; */
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-for-inp{
+    border: 2px solid #21583d;
+    width: 100%;
+    height: 70%;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.div-for-inp input{
+    width: 80%;
+    height: 90%;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.for-srch-logo{
+    background-color: #21583d;
+    width: 80px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.for-srch-logo img{
+    height: 60%;
+}
+.login-cart{
+    /* border: 1px solid blue; */
+    /* background-color: yellow; */
+    width: 350px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.options{
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.options img{
+    height: 50%;
+}
+.options span{
+    font-size: 15px;
+    color: #21583d;
+    text-decoration: none;
+}
+.linking{
+    text-decoration: none;
+}
