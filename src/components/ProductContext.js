@@ -20,6 +20,26 @@ export const ProductProvider = ({ children }) => {
   //for setting cart for outdoor plants
   const [forOutdoor, setForOutdoor] = useState([]);
 
+  //for setting cart for vegetables
+  const [forVegetables, setForVegetables] = useState([]);
+
+  //setting items in vegetables
+  const getVegetableData = async () =>{
+    try{
+      const res = await axios.get("http://localhost:4300/api/veggies");
+      const vegan = res.data;
+      setForVegetables(vegan);
+    }catch(err){
+      console.log(err);
+    }
+  };
+
+  useEffect(() =>{
+    getVegetableData();
+  },[]);
+
+  const myVegetableData = forVegetables.veggies;
+
   //setting plants in outdoor
   const getOutdoorData = async () => {
     try {
@@ -93,6 +113,7 @@ export const ProductProvider = ({ children }) => {
         forOutdoor,
         setForOutdoor,
         myOutdoorPlants,
+        forVegetables, setForVegetables,myVegetableData,
       }}
     >
       {children}

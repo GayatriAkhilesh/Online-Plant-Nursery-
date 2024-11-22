@@ -16,6 +16,9 @@ import Edititems from "./components/admin_operations/Edititems";
 import AcceptDecline from "./components/admin_operations/AcceptDecline";
 import Wishlist from "./components/wishlist/Wishlist";
 import ModalBill from "./components/Modal/ModalBill";
+import Vegetables from "./components/Vegetables/Vegetables";
+import { CeraminPots } from "./components/Vegetables/CeraminPots";
+import Tools from "./components/Vegetables/Tools";
 
 function App() {
   return (
@@ -26,13 +29,16 @@ function App() {
           <Route path="modal" element={<ModalBill/>}/>
           <Route path="/" element={<Navabar />}>
             <Route path="/home" element={<Homepage />} />
-            <Route path="/detailed" element={<Detailed />} />
+            <Route path="/detailed" element={<Detailed />} /> 
             <Route path="/cart" element={<Cart />} />
             <Route path="/wish" element={<Wishlist/>}/>
             <Route path="/carthistory" element={<Carthistory />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/indoor" element={<Indoor />} />
             <Route path="/outdoor" element={<Outdoor />} />
+            <Route path="/vegetables" element={<Vegetables/>}/>
+            <Route path="/ceramics" element={<CeraminPots/>}/>
+            <Route path="/tools" element={<Tools/>}/>
             <Route path="/add" element={<Additems/>}/>
             <Route path="/edit" element={<Edititems/>}/>
             <Route path="/accept" element={<AcceptDecline />}/>

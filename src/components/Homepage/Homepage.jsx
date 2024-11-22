@@ -177,13 +177,19 @@ const Homepage = () => {
           </div>
           <div className="two-of-two">
             <div className="one-in-three">
+              <Link className="linking" to={"/vegetables"}>
               <img className="collages" src={require("./homeImages/NEW VEGGIES.png")} alt="" />
+              </Link>
             </div>
             <div className="one-in-three">
+              <Link className="linking" to={"/ceramics"}>
               <img className="collages" src={require("./homeImages/NEW POTS.png")} alt="" />
+              </Link>
             </div>
             <div className="one-in-three">
+              <Link  className="linking" to={"/tools"}>
               <img className="collages" src={require("./homeImages/NEW TOOLS.png")} alt="" />
+              </Link>
             </div>
           </div>
         </div>
